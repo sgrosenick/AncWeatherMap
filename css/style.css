@@ -1,0 +1,26 @@
+/* Stylesheet by Sam Grosenick, 2017 */
+#map {
+    height: 99%;
+    width: 99%;
+    display: inline-block;
+    z-index: 1;
+    position: fixed;
+}
+
+#titleBar {
+    height: 12%;
+    width: 75%;
+    top: 0px;
+    right: 0px;
+    display: inline-block;
+    z-index: 2;
+    position: fixed;
+    background-color: white;
+}
+
+.leaflet-control-zoom-in,
+.leaflet-control-zoom-out {
+    height: 33%;
+    z-index: 10;
+    color: green;
+}
